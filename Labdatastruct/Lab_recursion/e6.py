@@ -5,7 +5,6 @@ def re(n,path):
             return 1
         return 0
     return re(n+1,path+[b[n]])+re(n+1,path)
-
 c, b = input('Enter Input (Money, Product) : ').split('/')
 b = b.split()
 a = len(b)
